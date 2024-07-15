@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FacebookClone</title>
+    <link rel="stylesheet" href="facebook.css">
+    <link rel="shortcut icon" href="./images/facebook.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+      <nav>
+        <div id="search" class="box">
+            <label for="find">
+                <img src="images/facebook.png" alt="">
+            </label> 
+            <input type="search" name="Search Something" id="find" placeholder="Search Facebook...">
+        </div>
+
+        <div id="icon" class="box">
+            <span class="material-symbols-outlined">home</span>
+            <span class="material-symbols-outlined">group</span>
+            <span class="material-symbols-outlined">play_circle</span>
+            <span class="material-symbols-outlined">groups</span>
+        </div>
+
+        <div id="notification" class="box">
+            <span><img src="images/dp1.jpg" alt="profile"></span>
+            <span><i class="fa-solid fa-bell"></i></span>
+            <span><i class="fa-solid fa-ellipsis"></i></span>
+        </div>
+      </nav>
+      
+      <div id="main">
+           <div id="sidebar">
+            <ul>
+              <li id="profile">
+                <img src="images/dp1.jpg">
+                <a href="#">Steven Smith</a>
+              </li>
+              <li class="purple">
+                <i class="fa-solid fa-user-group"></i>
+                <a href="#">Friends</a>
+              </li>
+              <li class="purple">
+                <i class="fa fa-play-circle"></i>
+                <a href="#">Videos</a>
+              </li>
+              <li class="purple">
+                <i class="fa fa-flag"></i>
+                <a href="#">Pages</a>
+              </li>
+              <li class="purple">
+                <i class="fa fa-users"></i>
+                <a href="#">Groups</a>
+              </li>
+              <li class="purple">
+                <i class="fa fa-bookmark"></i>
+                <a href="#">Bookmark</a>
+              </li>
+              <li class="purple">
+                <i class="fab fa-facebook-messenger"></i>
+                <a href="#">Inbox</a>
+              </li>
+              <li id="orange">
+                <i class="fas fa-calendar-week"></i>
+                <a href="#">Events</a>
+              </li>
+              <li class="purple">
+                <i class="fa fa-bullhorn"></i>
+                <a href="#">Ads</a>
+              </li>
+              <li id="red">
+                <i class="fas fa-hands-helping"></i>
+                <a href="#">Offers</a>
+              </li>
+              <li id="green">
+                <i class="fas fa-briefcase"></i>
+                <a href="#">Jobs</a>
+              </li>
+              <li id="yg">
+                <i class="fa fa-star"></i>
+                <a href="#">Favourites</a>
+              </li>
+            </ul>
+
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Advance</a>
+                <a href="#">More</a>
+            </div>
+           </div>
+
+           <div id="center">
+              <div id="story">
+                  <div id="create">
+                    <div id="first"><img src="images/dp.jpg"></div>
+                    <span><i class="fa fa-plus"></i></span>
+                    <a href="#">Create Story</a>
+                  </div>
+                  <div class="stories">
+                    <img src="images/g1.jpg" >
+                    <div class="ppic">
+                        <img src="images/g1.jpg">
+                    </div>
+                    <p>Svetlana Blakin</p>
+                  </div>
+                  <div class="stories">
+                    <img src="images/n.jpg">
+                    <div class="ppic">
+                      <img src="images/sjpg.jpg">
+                    </div>
+                    <p>Sheldon<br>Trey</p>
+                    </div>
+                  <div class="stories">
+                    <img src="images/b2.jpg">
+                    <div class="ppic">
+                      <img src="images/b2.jpg">
+                    </div>
+                    <p>Henry Mosely</p>
+                    </div>
+                  <div class="stories">
+                    <img src="./images/d.jpg">
+                    <div class="ppic">
+                      <img src="images/d.jpg">
+                    </div>
+                    <p>Areesha Fatima</p>
+                    </div>
+                  <div class="stories">
+                    <img src="images/ci.jpg">
+                    <div class="ppic">
+                      <img src="images/s.jpg">
+                    </div>
+                    <p>Camille<br>Martin</p>
+                  </div>
+              </div>
+
+              <div id="newpost">
+                 <div id="new">
+                    <div><img src="images/dp.jpg"></div>
+                    <input type="text" placeholder="What's on your mind, Steven?">
+                 </div>
+
+                 <div id="upload">
+                  <div class="action">
+                    <i class="fa fa-video"></i>
+                    <span>Live Video</span>
+                  </div>
+
+                  <div class="action">
+                    <i class="fa fa-image"></i>
+                    <span>Photo/Video</span>
+                  </div>
+
+                  <div class="action">
+                    <i class="fa fa-smile"></i>
+                    <span>Feeling/Activity</span>
+                  </div>
+                 </div>
+              </div>
+
+
+              <div id="written" class="post">
+                  <div class="toppost">
+                    <div class="dp">
+                       <img src="images/g1.jpg">
+                    </div>
+                    <div class="postinfo">
+                       <p>Svetlana</p>
+                       <span>6 hrs ago</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                  </div>
+
+                  <div class="midpost">
+                    <p>
+                      Coding like poetry should be short and concise.<br>
+                      First, solve the problem.<br>
+                      Make it work, make it right, make it fast.😏
+                    </p>
+                  </div>
+
+                  <div class="endpost">
+                    <div class="press like">
+                      <i class="far fa-thumbs-up"></i>
+                      <span>Like</span>
+                    </div>
+                    <div class="press comment">
+                      <i class="far fa-comment"></i>
+                      <span>Comment</span>
+                    </div>
+                    <div class="press share">
+                      <i class="fa fa-share"></i>
+                      <span>Share</span>
+                    </div> 
+                  </div>
+              </div>
+
+              <div class="post">
+                <div class="toppost">
+                  <div class="dp">
+                    <img src="images/b2.jpg">
+                 </div>
+                 <div class="postinfo">
+                    <p>Henry Mosely</p>
+                    <span>10 hrs ago</span>
+                 </div>
+                 <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="midpost">
+                    <div class="picture">
+                      One touch of nature makes the whole world kin.
+                      <img src="images/n (2).jpg" alt="Lake">
+                    </div>
+                </div>
+                <div class="endpost">
+                  <div class="press like">
+                    <i class="far fa-thumbs-up"></i>
+                    <span>Like</span>
+                  </div>
+                  <div class="press comment">
+                    <i class="far fa-comment"></i>
+                    <span>Comment</span>
+                  </div>
+                  <div class="press share">
+                    <i class="fa fa-share"></i>
+                    <span>Share</span>
+                  </div> 
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="toppost">
+                  <div class="dp">
+                    <img src="images/g2e.jpg">
+                 </div>
+                 <div class="postinfo">
+                    <p>Zesy Ashley</p>
+                    <span>12 hrs ago</span>
+                 </div>
+                 <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="midpost">
+                  <div class="picture">
+                    A glimpse of me
+                    <img src="images/g2.jpg" alt="Lake">
+                  </div>
+                </div>
+                <div class="endpost">
+                  <div class="press like">
+                    <i class="far fa-thumbs-up"></i>
+                    <span>Like</span>
+                  </div>
+                  <div class="press comment">
+                    <i class="far fa-comment"></i>
+                    <span>Comment</span>
+                  </div>
+                  <div class="press share">
+                    <i class="fa fa-share"></i>
+                    <span>Share</span>
+                  </div> 
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="toppost">
+                  <div class="dp">
+                    <img src="images/b3.jpg">
+                 </div>
+                 <div class="postinfo">
+                    <p>Elliot Jon</p>
+                    <span>16 hrs ago</span>
+                 </div>
+                 <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="midpost">
+                    <div class="picture">
+                      Real Speed.
+                      <img src="images/c.jpg" alt="Lake">
+                    </div>
+                </div>
+                <div class="endpost">
+                  <div class="press like">
+                    <i class="far fa-thumbs-up"></i>
+                    <span>Like</span>
+                  </div>
+                  <div class="press comment">
+                    <i class="far fa-comment"></i>
+                    <span>Comment</span>
+                  </div>
+                  <div class="press share">
+                    <i class="fa fa-share"></i>
+                    <span>Share</span>
+                  </div> 
+                </div>
+              </div>
+
+
+              <div id="lpost" class="post">
+                <div class="toppost">
+                  <div class="dp">
+                    <img src="images/s.jpg">
+                 </div>
+                 <div class="postinfo">
+                    <p>Norma finn</p>
+                    <span>12 hrs ago</span>
+                 </div>
+                 <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="midpost">
+                  <div class="picture">
+                    Your dressing defines your character.
+                    <img src="images/shoes.jpg" alt="Lake">
+                  </div>
+                </div>
+                <div class="endpost">
+                  <div class="press like">
+                      <i class="far fa-thumbs-up"></i>
+                      <span>Like</span>
+                    </div>
+                    <div class="press comment">
+                      <i class="far fa-comment"></i>
+                      <span>Comment</span>
+                    </div>
+                    <div class="press share">
+                      <i class="fa fa-share"></i>
+                      <span>Share</span>
+                    </div> 
+                </div>
+              </div>
+           </div>
+
+
+           <div id="friends">
+                <div id="pages">
+                  <p>Your Pages</p>
+                  <div>
+                      <span><img src="images/event.png"></span>
+                      <p>Tech Buddy</p> 
+                  </div>
+                  <div>
+                    <span><img src="images/shoes.jpg"></span>
+                    <p>Zesty Fashion</p>
+                  </div>
+                </div>
+
+                <div id="people">
+                  <p>Friends</p>
+                  <div>
+                      <span><img src="images/b2.jpg"></span>
+                      <p>Henry Mosely</p> 
+                  </div>
+                  <div>
+                    <span><img src="images/g1.jpg"></span>
+                    <p>Svetlana Blakin</p> 
+                  </div>
+                  <div>
+                    <span><img src="images/dp1.jpg"></span>
+                    <p>Geogre </p> 
+                  </div>
+                  <div>
+                    <span><img src="images/b3.jpg"></span>
+                    <p>Elliot Jon</p> 
+                  </div>
+                  <div>
+                    <span><img src="images/b1.jpg"></span>
+                    <p>Mahad Mustafa</p> 
+                  </div>
+                  <div>
+                    <span><img src="images/g2e.jpg"></span>
+                    <p>Zesty Ashley</p> 
+                  </div>
+                </div>
+               
+           </div>
+      </div>
+</body>
+</html>
