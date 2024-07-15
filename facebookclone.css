@@ -1,0 +1,629 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 95.5%;
+    height: 70px;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.box {
+  margin: 0.5rem 0;
+  width: 20%;
+  /* background-color: antiquewhite; */
+}
+
+#search {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+#search>label{
+    height: 40px;
+    width: 43px;
+}
+
+#search>label>img {
+    width: 100%;
+    height: 100%;
+}
+
+#search>input{
+   width: 190px;
+   height: 40px;
+   margin: 0 10px;
+   border-radius: 25px;
+   padding: 5px 10px;
+   font-family: sans-serif;
+   border: none;
+   background-color: #EEEEEE;
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    right: 70px;
+}
+
+#icon>span{
+    font-size: 35px;
+    text-align: center;
+}
+
+#notification {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#notification>span{
+    font-size: 20px;
+    text-align: center;
+}
+
+#notification>span>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+#icon>span:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* css for nav bar ends here */
+
+#main {
+    background-color: #EEEEEE;
+    width: 100%;
+    display: flex;
+}
+
+
+#center {
+    width: 280%;
+}
+
+
+/* styling for inside of sidebar starts here */
+
+#sidebar{
+    width: 100%;
+    height: 531px;
+    position: sticky;
+    top: 70px;
+    left: 0;
+}
+
+#sidebar>ul>li{
+    width: 80%;
+    height: 38px;
+    padding: 0.1rem 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+
+#sidebar>ul>li>i {
+    font-size: 1.1rem;
+    width: 50px;
+    text-align: center;
+}
+
+
+#sidebar>ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+
+/* for the profile line */
+
+#sidebar>ul>#profile>a{
+  padding-left: 0.4rem;
+}
+
+#sidebar img {
+    width: 38px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* coloring the sidebar  */
+
+#sidebar .purple i {
+    color: slateblue;
+}
+
+#sidebar #orange i {
+   color: tomato;
+}
+
+#sidebar #red i {
+  color: indianred;
+}
+
+#sidebar #green i {
+  color: green;
+}
+
+#sidebar #yg i {
+  color: yellowgreen;
+}
+
+#sidebar>.footer-links {
+    margin-top: 0.4rem;
+    text-align: center;
+}
+
+#sidebar>.footer-links>a{
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: gray;
+}
+
+
+/* styling for inside of sidebar ends here */
+
+
+/* styling frriends div starts here */
+
+#friends {
+    width: 80%;
+    height: 531px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 70px;
+    left: 0;
+}
+
+#pages{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+}
+
+#pages>p {
+     height: 70px;
+     align-self: center;
+     font-size: 0.9rem;
+     font-weight: bold;
+     box-sizing: border-box;
+     padding-top: 50px;
+     padding-left: 5px;
+}
+
+
+#pages>div{
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+#pages>div>span {
+    width: 50px;
+    margin: 0 0.5rem;
+}
+
+#pages>div>span>img{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+
+
+#people{
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+}
+
+#people>p{
+    height: 25px;
+    align-self: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 5px;
+    
+}
+
+#people>div{
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+#people>div>span {
+    width: 50px;
+    margin: 0 0.5rem;
+}
+
+#people>div>span>img{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+
+/* styling for the friends bar has completed */
+
+#center {
+    height: 2910px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#center>div {
+    margin: 10px 0;
+    width: 100%;
+}
+
+#center>#story {
+    flex-basis: 230px;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#center>#story>div {
+    flex-basis: 120px;
+    height: 198px;
+    margin: 0 5px;
+}
+
+#center>#story>div>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#center>#story>#create{
+    border-radius: 10px;
+    background-color: white;
+}
+
+#center>#story>#create>span {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+    border: 4px solid white;
+}
+
+#center>#story>#create>span>i{
+    font-size: 1.2rem;
+    color: white;
+    position: relative;
+    top: 2px;
+}
+
+#center>#story>#create>a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    position: relative;
+    left: 12px;
+    bottom: 22px;
+}
+
+#center>#story>#create>#first{
+    width: 100%;
+    height: 85%;
+}
+
+#center>#story>#create>#first>img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#center>#story>.stories {
+    position: relative;
+    overflow: hidden;
+}
+
+#center>#story>.stories>.ppic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    border: 3px solid royalblue;
+  }
+
+  #center>#story>.stories>p {
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    font-weight: bold;
+    color: white;
+  }
+
+  #center>#story>.stories>img{
+    transition: transform 0.5s ease-out;
+  }
+
+  #center>#story>.stories>img:hover {
+    transform: scale(1.2);
+  }  
+
+
+/* here ends styling for stories section */
+
+#center #newpost {
+    flex-basis: 120px;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#center #newpost {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#center #newpost>div {
+    display: flex;
+    flex-direction: row;
+}
+
+#center>#newpost>#new{
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
+
+#center>#newpost>#new>div{
+  height: 100%;
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#center>#newpost>#new>div>img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+#center>#newpost>#new>input {
+    height: 45px;
+    width: 80%;
+    background-color: #EEEEEE;
+    align-self: flex-end;
+    justify-self: flex-start;
+    border: none;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+#center>#newpost>#upload{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#center>#newpost>#upload>.action {
+    width: 130px;
+    color: #DD7744;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#center>#newpost>#upload>div>i {
+    width: 30px;
+}
+
+#center>#newpost>#upload>div:hover {
+    background-color: #ddd;
+}
+
+/* here ends styling for newpost */
+
+
+#center>.post {
+    flex-basis: 500px;
+}
+
+#center>.post {
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Here starts styling for toppost */
+
+#center>.post>.toppost {
+    flex-basis: 50px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 10px 10px 5px;
+}
+
+#center>.post>.toppost>.dp {
+    width: 45px;
+    height: 45px;
+}
+
+.post>.toppost>.dp>img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+#center>.post>.toppost>.postinfo {
+   height: 45px;
+   width: 170px;
+   margin-left: 15px;
+   box-sizing: border-box;
+   padding: 4px 1px;
+}
+
+#center>.post>.toppost>.postinfo>p {
+   font-weight: bold;
+}
+
+#center>.post>.toppost>.postinfo>span {
+   font-size: 0.8rem;
+   font-weight: bold;
+}
+
+#center>.post>.toppost>i {
+    text-align: right;
+    align-self: center;
+    font-weight: bold;
+}
+
+/* Here ends styling for toppost */
+
+/* Here starts styling for midpost */
+#center>#written>.midpost {
+    padding: 15px 10px 0px;
+}
+
+#center>.post>.midpost>.picture {
+    flex-basis: 370px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#center>.post>.midpost>.picture>img {
+    width: 100%;
+    height: 317.5px;
+    margin-top: 10px;
+}
+
+#center>#lpost>.midpost {
+    width: 100%;
+    flex-basis: 570px;
+}
+
+#center>#lpost>.midpost>.picture {
+    height: 570px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#center>#lpost>.midpost>.picture>img {
+    height: 95%;
+    margin-top: 10px;
+}
+
+/* #center>#written>.midpost>p {
+    padding: 15px 0px;
+} */
+
+
+/* Here ends styling for midpost */
+
+/* Here starts styling for endpost */
+
+#center>.post>.endpost {
+    height: 50px;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#center>.post>.endpost>.press {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+#center>.post>.endpost>.like {
+   width: 80px;    
+}
+
+#center>.post>.endpost>.comment {
+    width: 114px;
+}
+#center>.post>.endpost>.share {
+    width: 86px;
+    justify-content: flex-end;
+}
+
+
+#center>.post>.endpost>.press>i {
+    font-size: 1.1rem;
+    width: 20px;
+    padding-left: 1px;
+    padding-right: 5px;
+}
+
+#center>.post>.endpost>.share>span {
+    width: 42px;
+}
+
+
+/* Here ends styling for endpost */
+
+
+#center>#written {
+    flex-basis: 200px;
+}
+
+#center>#lpost {
+    flex-basis: 700px;
+}
+
+
+/* Here starts styling for hovering */
+#sidebar>ul>li:hover {
+    background-color: #ddd;
+}
+
+#friends #pages div:hover {
+    background-color: #ddd;
+}
+
+#friends #people div:hover {
+    background-color: #ddd;
+}
+
+#center .post .endpost .press:hover {
+    background-color: #ddd;
+}
